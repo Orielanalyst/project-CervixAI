@@ -101,8 +101,8 @@ const DemoInterface = () => {
         id: 2,
         title: "LSIL Sample",
         description: "Low-grade squamous intraepithelial lesion showing mild dysplasia",
-        originalImage: "/lsil-cells.jpg",
-        overlayImage: "/lsil-cells-ai.jpg",
+        originalImage: "lsil.jpg",
+        overlayImage: "lsil.jpg",
         confidence: 92,
         classification: "LSIL",
         features: [
@@ -406,9 +406,9 @@ const DemoInterface = () => {
         {(activeTab === "cellular" || activeTab === "tissue" || activeTab === "colposcopy") && (
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 lg:gap-12">
             {/* Left panel - Sample selection */}
-            <div className="bg-white rounded-2xl shadow-lg p-8">
-              <div className="flex justify-between items-center mb-6">
-                <h3 className="text-2xl font-bold text-slate-900">
+            <div className="bg-white rounded-2xl shadow-lg p-4 sm:p-6 lg:p-8">
+              <div className="flex flex-col sm:flex row justify-between items-center mb-6">
+                <h3 className="flex text-xl sm:text-2xl font-bold text-slate-900 mb-2 sm:mb-0">
                   {activeTab === "cellular" && "Cellular Samples"}
                   {activeTab === "tissue" && "Tissue Samples"}
                   {activeTab === "colposcopy" && "Colposcopy Images"}

@@ -120,7 +120,7 @@ const LandingHero = () => {
                 <div className="relative bg-white rounded-2xl shadow-2xl p-8 transform rotate-3 hover:rotate-0 transition-transform duration-500">
                   <div className="aspect-video bg-gradient-to-br from-teal-100 to-blue-100 rounded-xl overflow-hidden">
                     <img 
-                      src="https://images.unsplash.com/photo-1559757175-5700dde675bc?w=600&q=80" 
+                      src="Cellular.jpg" 
                       alt="CerVixAI Analysis Interface"
                       className="w-full h-full object-cover"
                     />

@@ -97,7 +97,7 @@ const Navbar = ({
 
             {/* Call To Action */}
             <Button
-              onClick={() => window.open("https://github.com/yourusername/your-repo", "_blank")}
+              onClick={() => window.open("https://github.com/Oriine/CervixAI-project", "_blank")}
               className="ml-2 px-5 py-2 bg-gradient-to-r from-teal-600 to-blue-600 text-white font-semibold rounded-xl shadow-md hover:from-teal-700 hover:to-blue-700 focus:ring-2 focus:ring-teal-500 focus:outline-none transition-all duration-200"
             >
               Connect
@@ -124,14 +124,15 @@ const Navbar = ({
               >
                 <div className="flex flex-col h-full">
                   {/* Logo in mobile menu */}
-                  <div className="flex items-center gap-3 px-6 pt-8 pb-4 border-b border-slate-100">
-                    <div className="w-10 h-10 bg-gradient-to-tr from-teal-600 to-blue-500 rounded-xl flex items-center justify-center shadow">
-                      <span className="text-white font-extrabold text-xl">C</span>
-                    </div>
-                    <div>
-                      <span className="text-lg font-bold text-slate-900">CerVixAI</span>
-                      <span className="block text-xs text-slate-500 font-medium">by ORIINE</span>
-                    </div>
+                  <div className="flex items-center gap-3">
+                    <a href="/" className="flex items-center gap-3">
+                      {/* Image Logo */}
+                      <img 
+                        src={logo}
+                        alt="CerVixAI Logo" 
+                        className="h-full w-20 spy-2" // Adjust size as needed
+                      />
+                    </a>
                   </div>
                   <div className="flex-1 flex flex-col space-y-2 px-6 py-8">
                     {navLinks.map((link) => (
@@ -156,7 +157,7 @@ const Navbar = ({
                       className="w-full text-left text-slate-700 hover:text-teal-600 font-medium px-4 py-3 rounded-lg hover:bg-teal-50 focus:bg-teal-50 transition-colors duration-200"
                       aria-label="Support"
                     >
-                      Support
+                      FAQ
                     </button>
                   </div>
                   <div className="px-6 pb-8">

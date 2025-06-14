@@ -82,13 +82,7 @@ const Home = () => {
           
           {/* Optional: You can keep a simplified preview here if desired */}
           <div className="bg-slate-50 rounded-2xl p-8 border border-slate-200 max-w-4xl mx-auto">
-            <div className="grid grid-cols-3 gap-4 mb-6">
-              {[1, 2, 3].map((item) => (
-                <div key={item} className="bg-white rounded-lg aspect-square shadow-sm border border-slate-200 flex items-center justify-center">
-                  <div className="text-slate-400 text-sm">Sample {item}</div>
-                </div>
-              ))}
-            </div>
+
             <div className="text-center">
               <p className="text-slate-500 mb-4">Click the button above to explore our full demo interface</p>
             </div>
@@ -203,7 +197,7 @@ const Home = () => {
               </p>
               <div className="flex space-x-4">
                 <a 
-                  href="https://github.com/oriine" 
+                  href="https://github.com/Oriine/CervixAI-project" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="w-10 h-10 bg-slate-800 hover:bg-teal-600 rounded-lg flex items-center justify-center transition-colors duration-300"
@@ -221,7 +215,7 @@ const Home = () => {
                   <Linkedin className="h-5 w-5" />
                 </a>
                 <a 
-                  href="https://youtube.com/@oriine" 
+                  href="https://www.youtube.com/@ORIINE-DEV" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="w-10 h-10 bg-slate-800 hover:bg-red-600 rounded-lg flex items-center justify-center transition-colors duration-300"
@@ -230,7 +224,7 @@ const Home = () => {
                   <Youtube className="h-5 w-5" />
                 </a>
                 <a 
-                  href="https://wa.me/237123456789" 
+                  href="https://chat.whatsapp.com/CkFOzbEmP9oAT7EfTWTTH1" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="w-10 h-10 bg-slate-800 hover:bg-green-600 rounded-lg flex items-center justify-center transition-colors duration-300"
@@ -261,14 +255,14 @@ const Home = () => {
                 </div>
                 <div className="flex items-center space-x-3">
                   <Mail className="h-5 w-5 text-teal-400 flex-shrink-0" />
-                  <a href="mailto:info@oriine.org" className="text-slate-300 hover:text-teal-400 transition-colors duration-300">
-                    info@oriine.org
+                  <a href="mailto:orielanalyst@gmail.com" className="text-slate-300 hover:text-teal-400 transition-colors duration-300">
+                    orielanalyst@gmail.com
                   </a>
                 </div>
                 <div className="flex items-center space-x-3">
                   <Phone className="h-5 w-5 text-teal-400 flex-shrink-0" />
-                  <a href="tel:+237123456789" className="text-slate-300 hover:text-teal-400 transition-colors duration-300">
-                    +237 123 456 789
+                  <a href="tel:+237627309505" className="text-slate-300 hover:text-teal-400 transition-colors duration-300">
+                    +237627309505
                   </a>
                 </div>
               </div>
@@ -277,7 +271,7 @@ const Home = () => {
           <div className="border-t border-slate-800 pt-8">
             <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
               <p className="text-slate-400 text-sm">
-                &copy; {new Date().getFullYear()} CerVixAI by ORIINE. All rights reserved.
+                &copy; {new Date().getFullYear()} CerVix AI by ORIINE. All rights reserved.
               </p>
               <div className="flex space-x-6 text-sm">
                 <a href="#" className="text-slate-400 hover:text-teal-400 transition-colors duration-300">Privacy Policy</a>

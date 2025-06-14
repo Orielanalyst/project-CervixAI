@@ -27,9 +27,9 @@ const AnalysisLevels = () => {
         "Detailed examination of individual cells to detect abnormalities at the microscopic level.",
       icon: <Microscope className="h-8 w-8 text-primary" />,
       beforeImage:
-        "https://images.unsplash.com/photo-1579546929518-9e396f3cc809?w=400&q=80",
+        "Cellularbefore.jpg",
       afterImage:
-        "https://images.unsplash.com/photo-1579546929518-9e396f3cc809?w=400&q=80",
+        "Cellularbefore.jpg",
       features: [
         "Identifies cellular morphology changes",
         "Detects nuclear abnormalities",
@@ -63,9 +63,9 @@ const AnalysisLevels = () => {
         "Visual examination of the cervix using a colposcope to identify suspicious areas that may require biopsy.",
       icon: <Camera className="h-8 w-8 text-primary" />,
       beforeImage:
-        "https://images.unsplash.com/photo-1518152006812-edab29b069ac?w=400&q=80",
+        "colposcopic.jpg",
       afterImage:
-        "https://images.unsplash.com/photo-1518152006812-edab29b069ac?w=400&q=80",
+        "colposcopic.jpg",
       features: [
         "Identifies acetowhite changes",
         "Detects abnormal vascular patterns",
