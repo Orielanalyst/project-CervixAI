@@ -87,7 +87,7 @@ const LandingHero = () => {
                 <div className="text-center sm:text-left">
                   <div className="flex items-center justify-center sm:justify-start mb-2">
                     <Zap className="w-6 h-6 text-teal-600 mr-2" />
-                    <span className="text-2xl font-bold text-slate-900">270%</span>
+                    <span className="text-2xl font-bold text-slate-900">&gt; 270%</span>
                   </div>
                   <p className="text-slate-600">Increased Screening Capacity</p>
                 </div>
@@ -101,7 +101,7 @@ const LandingHero = () => {
                 <div className="text-center sm:text-left">
                   <div className="flex items-center justify-center sm:justify-start mb-2">
                     <Users className="w-6 h-6 text-indigo-600 mr-2" />
-                    <span className="text-2xl font-bold text-slate-900">>90%</span>
+                    <span className="text-2xl font-bold text-slate-900"> &gt; 90%</span>
                   </div>
                   <p className="text-slate-600">Detection Accuracy</p>
                 </div>
@@ -151,7 +151,7 @@ const LandingHero = () => {
                   transition={{ duration: 3, repeat: Infinity, ease: "easeInOut" }}
                 >
                   <div className="text-center">
-                    <div className="text-lg font-bold">93%</div>
+                    <div className="text-lg font-bold">&gt; 93%</div>
                     <div className="text-xs opacity-90">Accuracy</div>
                   </div>
                 </motion.div>

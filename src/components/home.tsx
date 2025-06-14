@@ -158,7 +158,7 @@ const Home = () => {
                   <span className="text-white font-bold">✓</span>
                 </div>
                 <h4 className="text-xl font-bold text-slate-900 mb-3">Improved Accuracy</h4>
-                <p className="text-slate-600 leading-relaxed">AI-assisted screening achieves >90% sensitivity and >85% specificity, reducing human error.</p>
+                <p className="text-slate-600 leading-relaxed">AI-assisted screening achieves {'>'}90% sensitivity and  {'>'}85% specificity, reducing human error.</p>
               </div>
               <div className="text-center p-6 rounded-xl bg-gradient-to-br from-teal-50 to-teal-100 border border-teal-200">
                 <div className="inline-flex items-center justify-center w-12 h-12 bg-teal-500 rounded-full mb-4">
@@ -256,7 +256,7 @@ const Home = () => {
                   <MapPin className="h-5 w-5 text-teal-400 mt-0.5 flex-shrink-0" />
                   <div>
                     <p className="text-slate-300">ORIINE</p>
-                    <p className="text-slate-400 text-sm">Yaoundé, Cameroon</p>
+                    <p className="text-slate-400 text-sm">Bamenda, Cameroon</p>
                   </div>
                 </div>
                 <div className="flex items-center space-x-3">
